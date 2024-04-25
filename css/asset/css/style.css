@@ -1,0 +1,70 @@
+/* CABECERA ***************************************************************************************************/
+.foto_cabecera{
+    position: relative;
+    display: block;
+  }
+  .texto_imagen_centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 0,5px;
+  }
+  .promocion {
+      font-size: 30px;
+      text-shadow: 8px 8px 8px rgb(249, 247, 247);
+  }
+  
+  #descuento {
+      font-size: 120px;
+  }
+  
+  /* para centrar los datos de la table */
+  td {text-align: center;}
+  
+  /* Secciones de descuentos ***************************************************************************************/
+  .seccion {
+      background-image: linear-gradient( rgb(191, 191, 234) , #ffffff);
+          width: 70%;
+          margin: 20px;
+          padding: 10px;
+  }
+  
+  /* para que la tabla no ocupe toda la pantalla */
+  tabla_seccion {width: 50%;}
+  
+  .titulo_libro {font-size: larger;}
+  
+  .precio { 
+      font-size: 3pc; 
+      color: blue;
+  }
+  
+  
+  /* Seccion descuento piecera ******************************************************************************************/
+  
+  .tabla_pie {
+      border: 0px;
+  }
+  
+  .precio_piecera {color:red; }
+  
+  .añadir_al_carrito {
+      background-color: rgb(245, 245, 249);
+      color: #9d29ca;
+  }
+  
+  /* Seccion Pie de pagina ***********************************************************************************************/
+  .contacto {
+      background-color: rgb(6, 6, 135);
+      color: #ffffff;
+      width: 100%;
+      margin: 10px;
+      padding: 10px;
+  }
+  
+  .redes_sol {
+      color: white;
+     
+  }
+  
